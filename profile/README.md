@@ -23,6 +23,11 @@ us.
   field mappings. Everything you need to integrate **without** access to the product source.
 - 📖 **API reference:** [opendpp-node.eu/api-reference](https://opendpp-node.eu/api-reference) ·
   machine-readable: [openapi.json](https://opendpp-node.eu/openapi.json)
+- 🤖 **[opendpp-knowledge](https://github.com/OpenDPP/opendpp-knowledge)** — the API as a
+  machine-readable **OKF (Open Knowledge Format)** bundle for AI agents: cross-linked Markdown concepts
+  for every endpoint, schema and webhook, regenerated on each API version. Served live at
+  [opendpp-node.eu/okf](https://opendpp-node.eu/okf) and advertised via
+  [llms.txt](https://opendpp-node.eu/llms.txt).
 
 ### What we publish vs. keep private
 
