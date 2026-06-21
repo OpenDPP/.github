@@ -10,6 +10,10 @@ how to contribute.
   schemas, live-reproducible samples, the conformance validator, the public OpenAPI contract, and the
   AAS + UNTP field mappings. The **source of truth is the OpenDPP product** (private); the artifacts
   here are published outputs of it.
+- **[`opendpp-knowledge`](https://github.com/OpenDPP/opendpp-knowledge)** — the API as a
+  machine-readable **OKF (Open Knowledge Format)** bundle for AI agents: cross-linked Markdown for every
+  endpoint, schema, and webhook, regenerated on each API version. It's a **generated artifact** — fixes
+  flow from the product, so report an inaccuracy as an issue rather than editing the Markdown directly.
 
 ## How to contribute
 

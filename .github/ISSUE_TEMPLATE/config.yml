@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Live service & API reference
+    url: https://opendpp-node.eu/api-reference
+    about: Browse the live OpenAPI reference and try the endpoints.
+  - name: Interop kit (schemas, samples, validator)
+    url: https://github.com/OpenDPP/opendpp-interop/issues/new/choose
+    about: Conformance gaps and kit fixes have dedicated issue forms there.
+  - name: Report a security issue
+    url: https://opendpp-node.eu/security
+    about: Please disclose vulnerabilities responsibly — do not open a public issue.
