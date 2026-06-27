@@ -10,7 +10,7 @@ us.
 
 ### Two interoperability doors
 
-- **AAS / IDTA** — `application/aas+json` + AASX, conformant to IDTA-01001-3-1 (AAS v3.0).
+- **AAS / IDTA** — `application/aas+json` + AASX, conformant to IDTA-01001-3-1 (AAS v3.0/3.1).
 - **UNTP + W3C VC** — enveloping `vc+jwt` (VC-JOSE-COSE) or embedded `vc+ld+json` (W3C Data Integrity,
   `ecdsa-jcs-2019`), conformant to UNTP DigitalProductPassport v0.7.0, with `did:web` issuer keys and
   W3C Bitstring Status List revocation.
@@ -28,6 +28,19 @@ us.
   for every endpoint, schema and webhook, regenerated on each API version. Served live at
   [opendpp-node.eu/okf](https://opendpp-node.eu/okf) and advertised via
   [llms.txt](https://opendpp-node.eu/llms.txt).
+
+### Open client libraries — `@opendpp/*` on npm
+
+Small, Apache-2.0, **zero-dependency** helpers that make integrating with the node easier — published
+with npm provenance from [`opendpp-interop`](https://github.com/OpenDPP/opendpp-interop):
+
+- 📦 **[`@opendpp/gs1`](https://www.npmjs.com/package/@opendpp/gs1)** — GS1 Digital Link builders + mod-10 / GLN check-digit helpers.
+- 📦 **[`@opendpp/csv`](https://www.npmjs.com/package/@opendpp/csv)** — CSV → passport mapper to the public ingest shape (bulk import).
+- 📦 **[`@opendpp/webhooks`](https://www.npmjs.com/package/@opendpp/webhooks)** — webhook event types + a constant-time HMAC-SHA256 signature verifier.
+
+```sh
+npm install @opendpp/gs1   # or @opendpp/csv, @opendpp/webhooks
+```
 
 ### What we publish vs. keep private
 
