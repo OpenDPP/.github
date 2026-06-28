@@ -31,15 +31,15 @@ us.
 
 ### Open client libraries — `@opendpp/*` on npm
 
-Small, Apache-2.0, **zero-dependency** helpers that make integrating with the node easier — published
-with npm provenance from [`opendpp-interop`](https://github.com/OpenDPP/opendpp-interop):
+Small, Apache-2.0 npm packages that make integrating with the node easier — all provenance-backed:
 
+- 📦 **[`@opendpp/sdk`](https://www.npmjs.com/package/@opendpp/sdk)** — the full typed API client, generated from the OpenAPI contract ([opendpp-sdk](https://github.com/OpenDPP/opendpp-sdk)).
 - 📦 **[`@opendpp/gs1`](https://www.npmjs.com/package/@opendpp/gs1)** — GS1 Digital Link builders + mod-10 / GLN check-digit helpers.
 - 📦 **[`@opendpp/csv`](https://www.npmjs.com/package/@opendpp/csv)** — CSV → passport mapper to the public ingest shape (bulk import).
 - 📦 **[`@opendpp/webhooks`](https://www.npmjs.com/package/@opendpp/webhooks)** — webhook event types + a constant-time HMAC-SHA256 signature verifier.
 
 ```sh
-npm install @opendpp/gs1   # or @opendpp/csv, @opendpp/webhooks
+npm install @opendpp/sdk   # or @opendpp/gs1, @opendpp/csv, @opendpp/webhooks
 ```
 
 ### What we publish vs. keep private
