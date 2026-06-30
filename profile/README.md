@@ -1,6 +1,10 @@
-# OpenDPP
+<p align="center">
+  <img src="https://raw.githubusercontent.com/OpenDPP/.github/main/profile/assets/opendpp-mark.png" alt="OpenDPP" width="128" height="128">
+</p>
 
-**Digital Product Passports for the EU — built standards-first.**
+<h1 align="center">OpenDPP</h1>
+
+<p align="center"><strong>Digital Product Passports for the EU — built standards-first.</strong></p>
 
 OpenDPP is a B2B Digital Product Passport service for the EU Ecodesign for Sustainable Products
 Regulation (ESPR) and the Battery Regulation. Every public passport URL serves
@@ -55,3 +59,7 @@ to OpenDPP output.
 <sub>OpenDPP is an ESPR-readiness / interoperability node: it produces validator-conformant,
 independently verifiable output. Regulatory compliance is a determination for the operator and the
 competent authority.</sub>
+
+<sub>© Opendpp UAB · "OpenDPP"™ and the OpenDPP logo are trademarks of Opendpp UAB. The Apache-2.0
+license on the open repositories covers the code, not the name or logo — see
+<a href="https://github.com/OpenDPP/opendpp-interop/blob/main/TRADEMARK.md">TRADEMARK.md</a>.</sub>
