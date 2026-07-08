@@ -43,9 +43,11 @@ Small, Apache-2.0 npm packages that make integrating with the node easier — al
 - 📦 **[`@opendpp/webhooks`](https://www.npmjs.com/package/@opendpp/webhooks)** — webhook event types + a constant-time HMAC-SHA256 signature verifier.
 - 📦 **[`@opendpp/eori`](https://www.npmjs.com/package/@opendpp/eori)** — EORI validation against the EU Commission EOS authoritative service + offline syntax helpers.
 - 📦 **[`@opendpp/aeo`](https://www.npmjs.com/package/@opendpp/aeo)** — Authorised Economic Operator (trusted-trader) lookup against the EU Commission EOS service.
+- 📦 **[`@opendpp/testdata`](https://www.npmjs.com/package/@opendpp/testdata)** — Deterministic synthetic sample passports for every ESPR category + EPCIS-shaped supply-chain event chains (CLI + API).
+- 📦 **[`@opendpp/vies`](https://www.npmjs.com/package/@opendpp/vies)** — EU VAT-number validation against the EU Commission's authoritative VIES service + offline VAT-ID syntax/parse helpers.
 
 ```sh
-npm install @opendpp/sdk   # or @opendpp/gs1, @opendpp/csv, @opendpp/webhooks, @opendpp/eori, @opendpp/aeo
+npm install @opendpp/sdk   # or @opendpp/gs1, @opendpp/csv, @opendpp/webhooks, @opendpp/eori, @opendpp/aeo, @opendpp/testdata, @opendpp/vies
 ```
 
 ### What we publish vs. keep private
