@@ -9,8 +9,8 @@
 OpenDPP is a B2B Digital Product Passport service for the EU Ecodesign for Sustainable Products
 Regulation (ESPR) and the Battery Regulation. Every public passport URL serves
 **standards-conformant, independently verifiable** output under HTTP content negotiation — so a
-passport is consumable by IDTA AAS tooling and W3C Verifiable Credential verifiers alike, not just by
-us.
+passport is consumable by IDTA AAS tooling, not just by us, and a passport whose manufacturing facility
+is recorded is also served as a UNTP W3C Verifiable Credential.
 
 ### Two interoperability doors
 

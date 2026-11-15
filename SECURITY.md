@@ -4,8 +4,7 @@
 
 Please disclose responsibly — **do not open a public issue** for a security problem.
 
-Report via **<https://opendpp-node.eu/security>** (or the contact form at
-<https://opendpp-node.eu/contact>). Include what you found, how to reproduce it, and the impact. We'll
+Report by email to **security@opendpp-node.eu**. Include what you found, how to reproduce it, and the impact. We'll
 acknowledge your report and keep you updated; please allow reasonable time to remediate before any
 public disclosure.
 

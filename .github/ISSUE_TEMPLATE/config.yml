@@ -7,5 +7,5 @@ contact_links:
     url: https://github.com/OpenDPP/opendpp-interop/issues/new/choose
     about: Conformance gaps and kit fixes have dedicated issue forms there.
   - name: Report a security issue
-    url: https://opendpp-node.eu/security
+    url: https://github.com/OpenDPP/.github/blob/main/SECURITY.md
     about: Please disclose vulnerabilities responsibly — do not open a public issue.
